@@ -1,0 +1,328 @@
+
+// #promociones{
+//     display: flex;
+//     flex-direction: column;
+    
+//     @include tablet{
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//         height: 450px;
+//         margin: 60px;
+//     }
+
+//     @include desktop{
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//         height: 450px;
+//         margin: 60px;
+//     }
+// }
+
+// .carta{
+//     border: 1px solid grey;
+
+//     &-img{
+//         width: 50vh;
+//     }
+// }
+
+// #promociones{
+//     background-color: aqua;
+//     min-height: 80vh;
+// }
+
+.blog{
+    min-height: 70vh;
+    width: 100%; 
+    background-color: white; 
+}
+
+.line8{
+    color: #000000;
+    margin: 10px;
+}
+
+.blogg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.cartas{
+    display: flex;
+    height: 450px;
+    margin: 60px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.carta1{
+    background-color: #bdcce1;
+    width: 15%;
+    min-width: 300px;
+}
+.carta2{
+    background-color: rgb(60, 57, 57);
+    width: 15%;
+    min-width: 300px;
+}
+
+.carta3{
+    background-color: #0057a1;
+    width: 15%;
+    min-width: 300px;
+}
+
+.imgeye{
+    width: 15px;
+}
+
+.novedades{
+    padding: 70px;
+    font-size: 25px;
+    color: white;
+}
+
+.adimpng{
+    margin-right: 10px;
+    color: white;
+}
+.cartabottonn{
+   
+    border: 1px;
+    color: white;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.botonparador{
+    background-color: #00ffff00;
+    margin-top: 17px;
+    margin-left: 17px;
+    border-color: aliceblue;
+}
+
+.fecha{
+    font-size: 12px;
+}
+
+
+.tenemos{
+    font-size: 30px;
+}
+.linenove{
+    height: 1px;
+    width: 100;
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0);
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.admin{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-right: 20px;
+}
+
+.form-text{
+    width: 500px;
+    margin-left: 20px;
+}
+
+.form-text h2{
+  color: #b88439;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: left;
+}
+
+.form-text h3{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: left;
+}
+
+.form-text p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: left;
+}
+
+
+.form-select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.form-input{
+ margin-bottom: 10px;
+}
+
+.form-label{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-labell{
+    color: cadetblue;
+    font-size: 14px;
+    margin-bottom: 5px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.form-btn2{
+    margin-bottom: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+.vencuandoquieras{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imagenes/postre.png);
+    min-height: 60vh;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.ven{
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.tittleven{
+    font-size: 20px;
+}
+
+.treslogos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.lugar{
+    color: white;
+}
+
+.lugarlogo{
+    width: 50px;
+}
+.lugarlogoo{
+    width: 40px;
+}
+.logosjuntos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rrss{
+    display: flex;
+    justify-content: center;
+}
+
+.rrssbotton{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    border: 2px solid #000000;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.final{
+    min-height: 40vh;
+    width: 100%;
+    background-color: rgb(184, 180, 175);
+    margin-top: 100px;
+}
+
+.enlacesinteres{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.finaltitulos{
+    font-size: 20px;
+}
+
+.finalp{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.derechosreservados{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.derechoslogo{
+    width: 20px;
+    padding-right: 20px;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+}
+
+.enlace{
+    padding-top: 14px;
+    color: white;
+}

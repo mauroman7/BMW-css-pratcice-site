@@ -1,0 +1,62 @@
+
+.coches{
+    //background-color: aqua;
+    min-width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+    @include tablet{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    @include desktop{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+    &-uno{
+        padding-top: 50px;
+
+        &_img{
+            width: 40vh;
+
+            @include tablet{
+                width: 29vh;
+                height: 180px;
+            }
+            @include desktop{
+                width: 29vh;
+                height: 180px;
+            }
+        }
+
+        &_h2{
+            font-size: 22px;
+        }
+
+        &_h3{
+            padding: 0px;
+            font-size: 17px;
+            padding-bottom: 10px;
+            color: #bdcce1;
+        }
+
+        &_p{
+            font-size: 15px;
+        }
+    }
+}
+
+
